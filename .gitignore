@@ -3,12 +3,9 @@ ipch/
 Release/
 
 *.sdf
-*.sln
 *.suo
 *.exp
 *.pdb
-*.filters
-*.vcxproj
 *.cd
 
 # Python编译文件
@@ -30,6 +27,27 @@ Release/
 # 本地持久化文件
 *.vn
 
-# word文档
-*.doc
-*.docx
+
+
+# 其他文件
+*.dump
+*.vssettings
+*.klg
+*.lkc
+
+# 不想同步的
+*.local
+*.temp
+*.vt
+*.log
+
+vn.ctp/build/*
+vn.lts/build/*
+.idea
+.gitignore
+
+vn.trader/ctaAlgo/data/*
+vn.trader/build/*
+vn.trader/dist/*
+*.bak
+
